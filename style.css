@@ -1,1 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+header, footer {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  background: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  color: white;
+  margin: 0 15px;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+section, article, aside, figure {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  background: #eee;
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
 
